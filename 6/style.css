@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+#del{
+    width: 100px;
+    height: 60px;
+    background: salmon;
+    position: absolute;
+    font-weight: bold;
+    top: 90px;
+    left: 700px;
+}
+
+#test{
+    width: 500px;
+    height: 50px;
+    background: blue;
+    position: relative;
+    margin: 100px;
+    
+}
+
+#test2{
+    width: 20px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.text{
+    width: 600px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: orangered;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+
+#top:hover{
+    right: 29px;
+    bottom: 29px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+

@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #161616;
+}
+
+.nav-wrapper a{
+    cursor: none;
+}
+
+.nav-wrapper2 {
+    width: 100%;
+    height: 100vh;
+    background: #161616;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+.nav-wrapper2 nav{
+    top: 9%;
+    border-bottom: 2px dotted white;
+}
+
+.hover-this {
+    transition: all 0.3s ease;
+}
+
+span {
+    display: inline-block;
+    font-family: "Monument Extended";
+    font-weight: 300;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    padding: 0.3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+}
+
+
+@media(min-width: 900px) {
+    nav {
+          display: flex;
+          justify-content: space-around;
+    }
+}
+
+@media(max-width: 900px) {
+    nav {
+          top: 30%;
+    }
+
+    .hover-this {
+          width: 100%;
+          padding: 20px 0;
+          display: inline-block;
+    }
+}
+
+.hover-this:hover ~ .cursor{
+    transform: translate(-50%, -50%) scale(8);
+  }
+
+
+.matrix p{
+    color: red;
+}
+
+b{
+    color: blue;
+}
+
+h1{
+    margin-left: 50%;
+}
+
+.x2{
+    width: 300px;
+    height: 150px;
+    background: burlywood;
+}
+
+.matrix{
+    width: 300px;
+    min-height: 150px;
+    background-color: aqua;
+}
+
+#cube{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    margin: 30px;
+}
+
+#pxx{
+    padding-left: 61px;
+    padding-top: 61px;
+    color: white;
+    font-size: 20px;
+}
+
+#outparam{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+
+.menu{
+    float: left;
+    border: 2px solid red;
+    margin-right: 20px;
+    position: relative;
+    display: block;
+    width: 7%;
+
+    
+}
+
+.other{
+    display: inline-block;
+    width: 80%;
+       
+}
+
+.menu a{
+    padding: 10px;
+    
+}
+
+#outl3{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20px;
+    font-weight: bold;
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    
+}

@@ -1,0 +1,63 @@
+#my_slide{
+    width: 708px;
+    height: 531px;
+    border: 2px solid purple;
+    position: relative;
+}
+
+#one, #two{
+    width: 708px;
+    height: 531px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+#one{
+    background: yellow;
+}
+
+#two{
+    background-color: rgba(128,0, 4, 0.692);
+
+}
+
+#load{
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+
+#bar1, #bar2{
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+#bar1{
+    background: cyan;
+}
+
+#bar2{
+    background: rgb(111, 0, 255);
+    width: 0;
+}
+
+#start{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+#test{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
