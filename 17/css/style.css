@@ -1,15 +1,15 @@
 .progress{
     width: 500px;
+    margin: 0 auto;
 }
 
-.alert{
+.alert, .al2{
     display: none;
-    margin: 20px;
     width: 300px;
+    margin: 20px auto;
 }
 
-.al2{
-    display: none;
-    margin: 20px;
-    width: 300px;
+.ttl{
+    margin-left: 50%;
 }
+
