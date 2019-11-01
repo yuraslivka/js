@@ -1,0 +1,15 @@
+.progress{
+    width: 500px;
+}
+
+.alert{
+    display: none;
+    margin: 20px;
+    width: 300px;
+}
+
+.al2{
+    display: none;
+    margin: 20px;
+    width: 300px;
+}
