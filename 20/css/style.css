@@ -1,0 +1,121 @@
+.body{
+    background-color: #3f7d64;
+    color: wheat;
+    margin: 0;
+}
+
+span{
+    color:#49f1e9;
+    font-weight: bold;
+}
+
+article{
+    width: 500px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.weather{
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 540px;
+}
+
+#date1, #date2{
+    border-radius: 20px;
+    padding: 5px;
+    padding: 4px 0px 4px 10px;
+    font-size: 14px;
+}
+
+p, h1{
+    display: inline;
+}
+p{
+    font-size: 22px;
+    
+}
+
+#code{
+    padding-left: 135px;
+}
+
+#arrow{
+    width: 10%;
+}
+
+.keyboard{
+    border: 1px solid #77d8d3;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    top: 180px;
+    width: 813px;
+    margin: 0 auto;
+}
+
+.line::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.key{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #77d8d3;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.key:hover{
+    background: #49f1e9;
+    color: black;
+}
+
+.backspace{
+    width: auto;
+}
+
+.tab{
+    width: 60px;
+}
+
+.last{
+    width: 48px;
+}
+
+.caps{
+    width: 75px;
+}
+
+.enter{
+    width: 89px;
+}
+
+.shift, .shiftright{
+    width: 110px;
+}
+
+.space{
+    width: 349px;
+}
+
+.win{
+    width: 38px;
+    padding-bottom: 3px;
+}
+
+
+
+
+
+

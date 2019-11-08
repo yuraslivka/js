@@ -117,4 +117,52 @@ span{
     left: 20%;
     }
 
+.cesarCode{
+    width: 800px;
+    height: 439px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    float: left;
+    margin: 20px 0 0 20px;
+    position: relative;
+}
+
+#inputText{
+    position: absolute;
+    background: rgba(241, 241, 241, 0.72);
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+    left: 5%;
+    top: 30px;
+    width: 90%;
+    height: 30%;
+
+}
+
+#inputCode{
+    position: absolute;
+    background: rgba(241, 241, 241, 0.72);
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+    left: 5%;
+    top: 190px;
+    width: 90%;
+    height: 30%;
+
+}
+
+#outCode{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 326px;
+    font-size: 20px;
+    }
+
+
+
 

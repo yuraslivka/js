@@ -83,7 +83,35 @@ window.onload = function (){
   }
   checkTime();
 -----------------------------------------*/
+
+document.getElementById('inputText').oninput = function(){
+  const offset = 3;
+ /* let out = document.getElementById('outCode');
+  out.innerHTML = String.fromCharCode(121);*/
+  let str = this.value;
+  console.log(offset);
+  let out = '';
+  for(i=0; i<str.length; i++){
+    let code = str.charCodeAt(i);
+    code = code + offset;
+    out += String.fromCharCode(code);
+    }
+      document.getElementById('inputCode').value = out;
+      let str2 = out;
+      console.log(str2);
+      let out2 = '';
+      for(i=0; i<str2.length; i++){
+          let code2 = str2.charCodeAt(i);
+          code2 = code2 - offset;
+          out2 += String.fromCharCode(code2);
+        }
+        document.getElementById('outCode').innerHTML = out2;
+       }
   
+  
+
+
+
 }
 
   
